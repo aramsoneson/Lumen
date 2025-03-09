@@ -1,5 +1,5 @@
 <div align="center">
-  /*<img width="225" height="225" src="/assets/Icon.png" alt="Logo">*/
+  <img width="225" height="225" src="/assets/Icon.png" alt="Logo">
   <h1>Lumen</h1>
   <p>A better way to focus.</p><br><br>
   <a href="https://github.com/aramsoneson/Core/releases/latest/download/Lumen.dmg">Download for macOS</a><br>
