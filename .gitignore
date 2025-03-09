@@ -1,0 +1,14 @@
+# Lumen assets
+assets/
+
+# macOS
+*.DS_Store
+
+# Xcode
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.xcuserstate
+xcuserdata
+Build/
+DerivedData
