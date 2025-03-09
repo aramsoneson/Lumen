@@ -35,7 +35,7 @@ struct WelcomeView: View {
                 Text("Welcome to")
                     .font(.system(size: 15))
                     .foregroundColor(.secondary)
-                Text("Core")
+                Text("Lumen")
                     .font(.system(size: 48, weight: .black))
                     .fontWidth(.expanded)
             }

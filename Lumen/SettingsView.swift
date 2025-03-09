@@ -30,7 +30,7 @@ struct SettingsView: View {
 // Defines the General settings view
 struct GeneralView: View {
     // Defines the variable for the menu bar item's icon
-    @AppStorage("menuBarIcon") private var menuBarIcon = "circle.fill"
+    @AppStorage("menuBarIcon") private var menuBarIcon = "circle"
     
     var body: some View {
         // Creates the visual structure of the settings options

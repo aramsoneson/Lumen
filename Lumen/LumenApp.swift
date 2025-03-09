@@ -12,7 +12,7 @@ struct LumenApp: App {
     // Defines the variable to open windows
     @Environment(\.openWindow) private var openWindow
     // Defines the variable for the menu bar item's icon
-    @AppStorage("menuBarIcon") private var menuBarIcon: String = "circle.fill"
+    @AppStorage("menuBarIcon") private var menuBarIcon: String = "circle"
     // Defines the variable for whether the Welcome window opens
     @AppStorage("shouldWelcome") var shouldWelcome: Bool = true
 
