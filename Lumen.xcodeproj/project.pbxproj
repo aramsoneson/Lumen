@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		9D20E47F2D7D2F1200EEF4E1 /* LaunchAtLogin in Frameworks */ = {isa = PBXBuildFile; productRef = 9D20E47E2D7D2F1200EEF4E1 /* LaunchAtLogin */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		9DF0DDE12D7D19F2000B5903 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -52,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D20E47F2D7D2F1200EEF4E1 /* LaunchAtLogin in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +117,7 @@
 			);
 			name = Lumen;
 			packageProductDependencies = (
+				9D20E47E2D7D2F1200EEF4E1 /* LaunchAtLogin */,
 			);
 			productName = Lumen;
 			productReference = 9DF0DDCF2D7D19F2000B5903 /* Lumen.app */;
@@ -195,6 +201,9 @@
 			);
 			mainGroup = 9DF0DDC62D7D19F2000B5903;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				9D20E47D2D7D2F1200EEF4E1 /* XCRemoteSwiftPackageReference "LaunchAtLogin-Modern" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 9DF0DDD02D7D19F2000B5903 /* Products */;
 			projectDirPath = "";
@@ -541,6 +550,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9D20E47D2D7D2F1200EEF4E1 /* XCRemoteSwiftPackageReference "LaunchAtLogin-Modern" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sindresorhus/LaunchAtLogin-Modern";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9D20E47E2D7D2F1200EEF4E1 /* LaunchAtLogin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9D20E47D2D7D2F1200EEF4E1 /* XCRemoteSwiftPackageReference "LaunchAtLogin-Modern" */;
+			productName = LaunchAtLogin;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9DF0DDC72D7D19F2000B5903 /* Project object */;
 }
