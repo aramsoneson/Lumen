@@ -100,5 +100,6 @@ struct LumenApp: App {
                 .frame(maxWidth: 350, maxHeight: 115)
         }
         // Sets the window to sit on top of all other windows
-        .windowLevel(.floating)    }
+        .windowLevel(.floating)
+    }
 }

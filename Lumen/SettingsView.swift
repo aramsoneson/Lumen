@@ -44,8 +44,6 @@ struct GeneralView: View {
                     // Defines the available icons
                     // systemName defines how the option is shown in the window
                     // .tag defines what the variable will be set to
-                    Text("    ")
-                        .tag("    ")
                     Image(systemName: "circle")
                         .tag("circle")
                     Image(systemName: "circle.fill")
